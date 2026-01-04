@@ -5,11 +5,9 @@ streamlit run app.py
 
 ```
 
-Based on your project files, I have drafted a professional `README.md` that highlights your approach, the multi-model training process, and instructions for local setup.
-
 ---
 
-# Prognos AI - AeroHealth Manager
+# Prognos AI 
 
 ### NASA C-MAPSS Turbofan Engine RUL Prediction
 
@@ -50,22 +48,11 @@ To run the **AeroHealth Manager** dashboard on your local machine, follow these 
 
 ```bash
 git clone https://github.com/your-username/prognos-ai-cmapss.git
-cd prognos-ai-cmapss
+cd to the folder
 
 ```
 
-### 2. Set Up a Virtual Environment
-
-```bash
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
-
-```
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 Ensure you have `tensorflow`, `streamlit`, and `pandas` installed:
 
@@ -74,7 +61,7 @@ pip install streamlit pandas numpy tensorflow joblib plotly scikit-learn
 
 ```
 
-### 4. Run the Dashboard
+### 3. Run the Dashboard
 
 Launch the Streamlit application to visualize individual engine inspections and fleet health heatmaps:
 
@@ -86,7 +73,7 @@ streamlit run app.py
 ## 🖥️ Project Structure
 
 * `research.ipynb`: Initial data exploration and preprocessing.
-* `FD001(1).ipynb` & `FD004model.ipynb`: Comprehensive training scripts for the various model architectures.
+* `FD001(1).ipynb` to `FD004model.ipynb`: Comprehensive training scripts for the various model architectures.
 * `app.py`: Streamlit-based dashboard for real-time RUL prediction and fleet management.
 * `*.h5`: Saved trained models for different fleets.
 * `scaler_*.pkl`: Pre-trained scalers for data normalization.
